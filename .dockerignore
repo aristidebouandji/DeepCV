@@ -1,0 +1,17 @@
+# Éviter d’envoyer node_modules dans l'image
+node_modules
+npm-debug.log
+yarn-error.log
+dist
+.vite
+
+# Éviter les fichiers d'OS et d'IDE
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.idea
+.vscode
+.env
